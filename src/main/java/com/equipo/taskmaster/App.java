@@ -15,6 +15,7 @@ public class App
         addTask("Estudiar Maven");
         addTask("Leer sobre CI/CD");
         System.out.println("Ambiente: " + System.getProperty("env.name"));
+        System.out.println(saludar("DevOps"));
         printTasks();
     }
 
