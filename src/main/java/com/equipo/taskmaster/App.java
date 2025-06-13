@@ -28,4 +28,8 @@ public class App
             System.out.println("- " + t);
         }
     }
+
+    public static String saludar (String nombre){
+        return "Hola, " + nombre + "!";
+    }
 }
