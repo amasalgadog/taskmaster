@@ -11,4 +11,9 @@ public class AppTest {
         App.addTask("Terminar ejercicio Maven");
         assertEquals(1, App.tasks.size());
     }
+
+    @Test
+    public void testSaludar(){
+        assertEquals("Hola, DevOps!", App.saludar("DevOps"));
+    }
 }
